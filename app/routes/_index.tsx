@@ -47,7 +47,7 @@ export default function () {
               height="auto"
               loading="eager"
               onClick={onClick}
-              src="/images/assets/matt-scaled.webp"
+              src="/images/assets/vignesh-murugan.webp"
               width="auto"
             />
           </div>
@@ -55,9 +55,7 @@ export default function () {
       </div>
       <section className="border-0 border-b border-t border-solid border-color-border bg-color-background-light px-8 py-20 text-color-background-dark md:px-0">
         <blockquote className="mx-auto my-20 max-w-4xl text-2xl font-normal md:my-40 md:text-3xl">
-          Passionate about <b>quality code</b> written <b>for humans</b>,
-          unlocking <b>developer productivity</b>, and creating a delightful{" "}
-          <b>user experience</b>.
+      
         </blockquote>
       </section>
       <SectionAmbitions />

@@ -39,7 +39,7 @@ export default function () {
                 className="custom-bg-gradient aspect-square max-h-48 overflow-hidden rounded-full p-1"
                 height="auto"
                 loading="eager"
-                src="/images/assets/matt-scaled.webp"
+                src="/images/assets/vignesh-murugan.webp"
                 width="auto"
               />
               <div className="flex flex-shrink-0 flex-col gap-2 p-4">
