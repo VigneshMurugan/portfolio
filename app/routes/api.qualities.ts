@@ -1,4 +1,5 @@
 import type { LoaderFunction } from "@vercel/remix";
+import OpenAI from 'openai';
 
 const qualities = [
   "A problem solver 🧩",

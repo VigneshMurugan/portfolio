@@ -1,3 +1,5 @@
+import { SOCIAL_GITHUB, SOCIAL_LINKEDIN, SOCIAL_TWITTER } from "~/config/constants";
+
 export interface Experience {
   company: string;
   companyUrl: string;
@@ -264,34 +266,34 @@ export const experience: Experience[] = [
 
 export interface Social {
   icon: string;
-  title: string;
+  title?: string;
   url: string;
 }
 
 export const social: Social[] = [
   {
     icon: `/images/svg/envelope.svg`,
-    title: `matthew.scholta`,
-    url: `mailto:matthew.scholta@gmail.com`
+    title: `Vignesh Murugan`,
+    url: `mailto:vignesh328@gmail.com`
   },
-  // {
-  //   icon: `/images/svg/phone.svg`,
-  //   title: `(415) 722-7481`,
-  //   url: `tel:+14157227481`
-  // },
+  {
+    icon: `/images/svg/phone.svg`,
+    title: `+91 96209 00378`,
+    url: `tel:+919620900378`
+  },
   {
     icon: `/images/svg/github.svg`,
-    title: `visormatt`,
-    url: `https://github.com/visormatt`
+    title: `Github`,
+    url: SOCIAL_GITHUB
   },
   {
     icon: `/images/svg/linkedin.svg`,
-    title: `/in/MatthewScholta`,
-    url: `https://www.linkedin.com/in/MatthewScholta`
+    title: `LinkedIn`,
+    url: SOCIAL_LINKEDIN
   },
   {
     icon: `/images/svg/twitter.svg`,
-    title: `@visormatt`,
-    url: `https://twitter.com/visormatt`
+    title: `Twitter`,
+    url: SOCIAL_TWITTER
   }
 ];

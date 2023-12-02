@@ -2,7 +2,6 @@ import type { LinksFunction, MetaFunction } from "@vercel/remix";
 
 import { social } from "~/data/resume";
 import { SITE_AUTHOR, SITE_TITLE, SITE_YEAR } from "~/config/constants";
-import { AppShareLink } from "~/components/AppShareButton";
 import { AppSocialLink } from "~/components/AppSocialLink";
 import { SectionEducation } from "~/components/SectionEducation";
 import { SectionExperience } from "~/components/SectionExperience";
@@ -57,7 +56,6 @@ export default function () {
               >
                 Download Resume
               </a>
-              <AppShareLink />
             </div>
           </div>
         </aside>
@@ -71,10 +69,11 @@ export default function () {
             <div className="mb-8 border-t border-solid border-color-border print:hidden" />
             <div className="flex items-center gap-10">
               <p>
-                <span className="mr-1">👨‍💻</span> A Software Engineer whose
-                passion lies in creating <b>quality code</b> written{" "}
-                <b>for humans</b>, unlocking <b>developer productivity</b>, and
-                creating a delightful <b>user experience</b>.
+                <span className="mr-1">👨‍💻</span> Seasoned Full-Stack Developer with over 10 years of experience crafting scalable and user-centric web applications. 
+                Expertise in <b>Node.js, React, and TypeScript</b> enables me to seamlessly 
+                handle both front-end and back-end development tasks.
+                Proficient in building <b>high-performance, secure, and maintainable web applications</b>
+                that meet the evolving needs of businesses. 
               </p>
             </div>
           </section>

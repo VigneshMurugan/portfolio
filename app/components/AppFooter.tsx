@@ -71,9 +71,9 @@ export const AppFooter = () => {
           rel="noreferrer"
           target="_blank"
         >
-          San Diego
+          Coimbatore
         </a>
-        , CA.
+        , India.
       </p>
     </footer>
   );
